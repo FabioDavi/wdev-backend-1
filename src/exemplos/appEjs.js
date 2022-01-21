@@ -1,8 +1,9 @@
 const express = require('express')
 const app = express()
 
-const port = 3080;
+require('dotenv').config()
 
+const port = process.env.PORT || '3080'
 //fazer esse https://github.com/woliveiras/curriculo-expresso
 /*
 If I’m hiring a Fullstack Nodejs developer I’m looking for the following:
